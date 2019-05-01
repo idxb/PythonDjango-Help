@@ -19,19 +19,17 @@
 
 Запустить сервер Django: `d:\project\python manage.py runserver`
 
-Создать приложение в проекте
-`python manage.py startapp polls`
+Создать приложение в проекте `python manage.py startapp polls`
 
-Создаем таблицы в бд и делаем деплой после изменений
-`python manage.py migrate`
+Создаем таблицы в бд и делаем деплой после изменений `python manage.py migrate`
 
 ### Работа с моделью Django
 
-1)Внести изменения в модели `models.py`
+1. Внести изменения в модели `models.py`
 
-2)Выполнить инициализацию `python manage.py makemigrations polls`
+2. Выполнить инициализацию `python manage.py makemigrations polls`
 
-3)Выполнить миграцию `python manage.py migrate`
+3. Выполнить миграцию `python manage.py migrate`
 
 Инициализация приложения polls и внесение изменений в модели `python manage.py makemigrations polls`
 
@@ -40,6 +38,5 @@
 Создание суперпользователя `python manage.py createsuperuser`
 
 Поиск проблем в проекте `python manage.py check`
-
 
 Сменить порт сервера: `python manage.py runserver 8080`
