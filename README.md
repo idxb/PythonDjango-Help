@@ -31,7 +31,6 @@
 
 3. Выполнить миграцию `python manage.py migrate`
 
-Инициализация приложения polls и внесение изменений в модели `python manage.py makemigrations polls`
 
 ### Утилиты
 
