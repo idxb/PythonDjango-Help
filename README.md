@@ -7,6 +7,9 @@
 
 Активация виртуального окружения: `d:\project> myvenv\Scripts\activate`
 
+Если окружение не активируется, то в терминале под администратором ввести 
+`C:\WINDOWS\system32> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned`
+
 После активации окружения можно установливать Django
 
 ## Подготовка окружения Django
